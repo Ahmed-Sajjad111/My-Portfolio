@@ -75,3 +75,26 @@ header nav ul li a:hover {
 /* HEADER / NAVBAR STYLES END */
 
 /* SUBTITLE SECTION STYLES START */
+
+.subtitle {
+    height: 200px;
+    background-image: url(../images/subtitle-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.subtitle div {
+    color: #FDFFFF;
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 200px 20px 600px;
+}

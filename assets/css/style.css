@@ -13,13 +13,14 @@ body {
     --primary-color: #FDFFFF ;
     --secondary-color: #570000 ;
     --tertiary-color: #B10F15 ;
+    --background-dark: #202020;
 }
 
 /* HEADER / NAV BAR STYLES START */
 
 header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    padding: 20px 35px 20px 0px;
+    background-color: var(--background-dark);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -37,7 +38,9 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
+    background-color: var(--tertiary-color);
     color: var(--primary-color);
+    padding: 10px 25px 10px 100px;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -47,7 +50,15 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav li {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin-right: 15px;
 }
 
 header nav ul {
@@ -67,7 +78,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -84,7 +95,6 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
     justify-content: flex-end;
 }
 
@@ -93,8 +103,8 @@ header nav ul li a:hover {
     background-color: var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-end;
-    padding: 10px 10px 10px 10px;
-    margin: 0px 200px 20px 600px;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 10px 20px 10px 20px;
+    margin: 0% 0% 1.6% 45%;
 }

@@ -7,13 +7,15 @@
 body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--background-light);
 }
 
 :root {
     --primary-color: #FDFFFF ;
-    --secondary-color: #570000 ;
+    --secondary-color: #7e0000 ;
     --tertiary-color: #B10F15 ;
     --background-dark: #202020;
+    --background-light: #ff00002c;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -107,4 +109,58 @@ header nav ul li a:hover {
     justify-content: flex-start;
     padding: 10px 20px 10px 20px;
     margin: 0% 0% 1.6% 45%;
+}
+
+/* SUBTITLE SECTION STYLES END */
+
+/* MAIN STYLES START */
+main{
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: var(--secondary-color)
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: end;
+    width: 15%;
+    font-size: 50px;
+    font-weight: bold;
+    border-right: 3px solid var(--secondary-color);
+    padding-right: 20px;
+}
+
+.bio, .work, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    padding-left: 50px;
+}
+
+.websiteview {
+    width: 100%;
+    height: 100%;
+}
+
+.work-flex {
+    display: flex;
+    flex-wrap: wrap;
+    border: 6px solid var(--tertiary-color);
+    width: 600px
+}
+
+#large-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }

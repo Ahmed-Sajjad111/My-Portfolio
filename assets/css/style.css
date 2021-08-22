@@ -248,3 +248,22 @@ aside {
 /* MAIN STYLES END */
 
 /* FOOT STYLES START */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    background-color: var(--background-dark);
+}
+
+footer p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 20px;
+}
+
+img {
+    height:50%;
+    width: 50%;
+}

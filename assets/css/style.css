@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-margin-top: 9em;
 }
 
 body {
@@ -222,3 +223,28 @@ aside {
     padding: 5px 24px;
     margin-top: 5rem;
 }
+
+.projectnavs {
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contactinfo {
+    height: 2em;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: var(--secondary-color);
+    font-size: 150%;
+    border-bottom: 3px solid var(--secondary-color);
+}
+/* MAIN STYLES END */
+
+/* FOOT STYLES START */

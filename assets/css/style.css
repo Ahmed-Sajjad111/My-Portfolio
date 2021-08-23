@@ -204,24 +204,26 @@ aside {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    color: var(--background-dark);
+    color: var(--primary-color);
     background-color: var(--tertiary-color);
     height: 4rem;
     width: 12rem;
     padding: 5px 24px;
     margin-top: 16rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .websitetag {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    color: var(--background-dark);
+    color: var(--primary-color);
     background-color: var(--tertiary-color);
     height: 4rem;
     width: 12rem;
     padding: 5px 24px;
     margin-top: 5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .projectnavs {
@@ -254,16 +256,19 @@ footer {
     height: auto;
     width: auto;
     background-color: var(--background-dark);
+    padding: 2em 0;
 }
 
 footer p {
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-img {
-    height:50%;
-    width: 50%;
+footer p:last-child {
+    font-size: 20px;
+    color: var(--tertiary-color)
 }

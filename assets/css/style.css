@@ -415,6 +415,28 @@ footer p:last-child {
 
 /*Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
+    #large-flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 16rem;
+        width: 100%;
+        background: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/runbuddy1610.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 0px;
+    }
+
+    #large-flex:hover {
+        display: flex;
+        flex-wrap: wrap;
+        height: 16rem;
+        width: 100%;
+        background: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/runbuddy1610.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 0px;
+    }
+
     main {
         padding: 20px 40px;
     }
@@ -426,6 +448,34 @@ footer p:last-child {
 
 /*Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
+    #large-flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 13rem;
+        width: 100%;
+        background: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/runbuddy1610.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 0px;
+    }
+
+    #large-flex:hover {
+        display: flex;
+        flex-wrap: wrap;
+        height: 13rem;
+        width: 100%;
+        background: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/runbuddy1610.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 0px;
+    }
+
+    .large-websitetag {
+        height: 3rem;
+        width: 8rem;
+        margin-top: 8rem;
+    }
+
     .websitetag {
         height: 2.5rem;
         width: 7.5rem;

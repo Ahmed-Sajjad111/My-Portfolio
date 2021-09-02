@@ -155,6 +155,7 @@ aside {
 
 .photo-container {
     justify-content: flex-start;
+    align-self: center;
 }
 
 .profile-photo {
@@ -163,7 +164,11 @@ aside {
 }
 
 .biography {
-    padding: 50px 0px 50px 20px;
+    padding: 20px 0px 0px 20px;
+}
+
+.biography p {
+    text-indent: 40px;
 }
 
 .work {

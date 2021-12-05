@@ -195,7 +195,7 @@ aside {
     flex-wrap: wrap;
     height: 22rem;
     width: 100%;
-    background: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/desktop-page-screenshot.png);
+    background: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/MyBook.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
@@ -219,8 +219,8 @@ aside {
     background-size: cover;
 }
 
-#passwordgenerator {
-    background-image: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/Password-Generator-Website-Preview.png);
+#munchiesandmovies {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.315), rgba(255, 0, 0, 0.315)), url(../images/munchiesandmovies.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -230,7 +230,7 @@ aside {
     flex-wrap: wrap;
     height: 22rem;
     width: 100%;
-    background: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/desktop-page-screenshot.png);
+    background: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/MyBook.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
@@ -254,8 +254,8 @@ aside {
     background-size: cover;
 }
 
-#passwordgenerator:hover {
-    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/Password-Generator-Website-Preview.png);
+#munchiesandmovies:hover {
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(../images/munchiesandmovies.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
